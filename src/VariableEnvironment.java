@@ -21,7 +21,9 @@ public class VariableEnvironment
 	//it to theVariables
 	public void addVariable(String name, int value)
 	{
-		
+		env.add("a",5);
+		env.add("b",7);
+		System.out.println(env); 
 	}
 	
 	//take in a name and it should retrieve the value associated
@@ -29,6 +31,6 @@ public class VariableEnvironment
 	//any name you look for, will be found.
 	public int getValue(String name)
 	{
-		return -1;
+		return this.theVariables = name;
 	}
 }
